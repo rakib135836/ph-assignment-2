@@ -20,17 +20,17 @@ body{
 }
 
 .primary-btn:hover{
-transform: scale(1.2);
+transform: scale(1.2 );
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 73.125rem;
   margin:0 auto;
 }
 p{
     color: rgba(19, 19, 24, 0.70);
 font-weight: 400;
-line-height: 26px;
+line-height: 1.625rem;
 }
 
 /* ----------------------------------------- */
@@ -39,8 +39,8 @@ line-height: 26px;
 
 .banner-1{
     text-align: center;
-    padding-top:106px;
-    padding-bottom: 106px;
+    padding-top:6.625rem;
+    padding-bottom: 6.625rem;
     background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
     background-position: center;
     background-repeat: no-repeat;
@@ -50,15 +50,15 @@ line-height: 26px;
     border-radius: 16px;
 }
 .banner-1 > h1{
-    font-size: 64px;
+    font-size: 4rem;
 font-weight: 800;
 }
-.banner-1 > p{
+.banner-1 > h6{
     
-width: 676px;
-font-size: 16px;
+width: 42.25rem;
+font-size: 1rem;
 font-weight: 400;
-line-height: 26px;
+line-height: 1.625rem;
 margin:0 auto;
 }
 
@@ -66,38 +66,38 @@ margin:0 auto;
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
 max-width: 800px;
-padding: 16px;
+padding: 1rem;
 margin: 0 auto;
 
 }
 .where-go{
-    margin-right: 24px;
-padding: 16px;
+    margin-right:1.5rem;
+padding: 1rem;
 border-radius: 5px;
 border: none;
-width: 150px;
+width: 9.375rem;
 }
 
 #when{
-    margin-right: 24px;
-    padding: 16px;
+    margin-right:1.5rem;
+    padding: 1rem;
     border-radius: 5px;
     border: none;  
-    width: 150px;
+    width: 9.375rem;
 }
 #select-type{
-    margin-right: 24px;
-    padding: 16px;
+    margin-right:1.5rem;
+    padding:1rem;
     border-radius: 5px;
     border: none;
-    width: 150px;
+    width: 9.375;
 }
 .find-now{
    
-    padding: 16px;
+    padding:1rem;
     border-radius: 5px;
     border: none;
-    width: 150px;
+    width: 9.375rem;
     color:white;
     transition: 0.1s;
     
@@ -116,14 +116,14 @@ width: 150px;
     max-height: 550px;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     align-items: center;
 }
 .b2-description{
     max-width: 570px;
 }
 .b2-description > h1{
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 800;
 
 }
@@ -132,5 +132,125 @@ font-weight: 800;
     list-style-type: disc;
 }
 .b2-btn{
-    padding:14px 35px;
+    padding:0.875rem 2.19rem;
 }
+
+.banner-3{
+text-align: center;
+margin-top: 6.25rem;
+}
+.banner-3 > h1{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+/* ------------------------------------------ */
+
+
+/* banner-4 baki ache  */
+
+
+
+
+
+/* -------------------------------------------- */
+.banner-5{
+    text-align: center;
+    margin-top: 6.25rem;
+    }
+    .banner-5 > h1{
+        color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    }
+    .banner-6-part1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6.25rem;
+        gap:1rem;
+    }
+    .banner-6-left{
+        padding:2rem;
+        background-color: rgba(251, 181, 99, 0.05);
+
+    }
+    
+
+    .banner-6-right{
+        padding:2rem; 
+        background: rgba(41, 206, 246, 0.05);
+        border-radius: 8px;
+    }
+.fa-hotel, .fa-map-location-dot, .fa-tags{
+    font-size: 3rem;
+} 
+
+.banner-6-part-2{
+    padding:2rem; 
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 8px;
+    text-align: center; 
+    max-width: 573px;
+    max-height: 284px;
+    margin:0 auto;
+}
+
+/* ------------------------------------------------ */
+
+
+.banner-7{
+    text-align: center;
+    margin-top: 6.25rem;
+    }
+    .banner-7 > h1{
+        color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    }
+
+    /* ------------------------------------------- */
+
+
+    .deals-1, .deals-3{
+        background-image: url("Images/Group\ 39.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      border-radius: 16px;
+      padding:3.44rem 3.44rem 3.44rem 33.43rem;
+      margin-top: 1.5rem;
+    }
+
+    .deals-content{
+        background: rgba(255, 255, 255, 0.80);
+
+        backdrop-filter: blur(2.5px);
+        padding:3.13rem;
+        border-radius: 1rem;
+    }
+    .timeline{
+        display: flex;
+        gap: 1rem;
+       
+       
+    }
+    .book-now-btn{
+        padding:1rem;
+        width:9.375rem;
+    }
+
+
+    .deals-2{
+
+        background-image: url("Images/Group\ 40.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      border-radius: 16px;
+      padding: 3.44rem 33.43rem 3.44rem 3.44rem ;
+      margin-top: 1.5rem;
+
+    }
