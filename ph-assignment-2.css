@@ -1,0 +1,136 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.primary-color{
+    color:#FF5400;
+}
+
+.primary-btn{
+    background-color: #FF5400;
+    max-height: 52px;
+   border-radius: 8px;
+   color: white;
+   border:none;
+   transition: 0.1s;
+}
+
+.primary-btn:hover{
+transform: scale(1.2);
+}
+
+.container{
+    max-width: 1170px;
+  margin:0 auto;
+}
+p{
+    color: rgba(19, 19, 24, 0.70);
+font-weight: 400;
+line-height: 26px;
+}
+
+/* ----------------------------------------- */
+
+/* banner-1 */
+
+.banner-1{
+    text-align: center;
+    padding-top:106px;
+    padding-bottom: 106px;
+    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    max-height: 500px;
+    border-radius: 16px;
+}
+.banner-1 > h1{
+    font-size: 64px;
+font-weight: 800;
+}
+.banner-1 > p{
+    
+width: 676px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin:0 auto;
+}
+
+.input-field{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+max-width: 800px;
+padding: 16px;
+margin: 0 auto;
+
+}
+.where-go{
+    margin-right: 24px;
+padding: 16px;
+border-radius: 5px;
+border: none;
+width: 150px;
+}
+
+#when{
+    margin-right: 24px;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;  
+    width: 150px;
+}
+#select-type{
+    margin-right: 24px;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+}
+.find-now{
+   
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    color:white;
+    transition: 0.1s;
+    
+}
+.find-now:hover{
+    transform: scale(1.2);
+    
+}
+
+/* ----------------------------------------- */
+
+/* banner-2 */
+
+
+.banner-2{
+    max-height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+.b2-description{
+    max-width: 570px;
+}
+.b2-description > h1{
+font-size: 40px;
+font-weight: 800;
+
+}
+
+.b2-description > ul{
+    list-style-type: disc;
+}
+.b2-btn{
+    padding:14px 35px;
+}
