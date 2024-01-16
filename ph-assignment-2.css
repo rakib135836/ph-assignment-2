@@ -35,6 +35,38 @@ line-height: 1.625rem;
 
 /* ----------------------------------------- */
 
+/* navbar */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-logo{
+        display: flex;
+        gap: 0.5rem;
+      
+}
+
+.nav-links > a{
+color:black;
+margin-left: 1.2rem;
+font-size: 1.2rem;
+text-transform: capitalize;
+transition: 0.1s;
+
+
+}
+a :hover{
+
+    transform: scale(1.2);
+
+}
+
+
+
+/* ------------------------------------------------ */
 /* banner-1 */
 
 .banner-1{
@@ -152,8 +184,96 @@ font-weight: 800;
 /* ------------------------------------------ */
 
 
-/* banner-4 baki ache  */
+/* banner-4   */
+.wish-list-1, .wish-list-2, .wish-list-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
 
+
+
+.grid-1{
+    background-image: url("Images/Rectangle\ 5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 35.81rem;
+height: 18.75rem;
+padding:8.25rem 14.125rem;
+
+}
+.grid-2{
+    background-image: url("Images/Rectangle\ 8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 35.81rem;
+
+height: 18.75rem;
+padding:8.25rem 14.125rem;
+}
+.grid-3{
+    background-image: url("Images/Rectangle\ 6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 23.38rem;
+height:17.87rem;
+padding:8.25rem;
+}
+.grid-4{
+    background-image: url("Images/Rectangle\ 7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width:29.62rem;
+height: 17.87rem;
+padding:8.25rem;
+ 
+}
+.grid-5{
+    background-image: url("Images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 17.12rem;
+height: 17.87rem;
+padding:8.25rem 5rem;
+}
+.grid-6{
+    background-image: url("Images/Rectangle\ 11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 29.56rem;
+
+height: 18.75rem; 
+padding:8.25rem; 
+}
+.grid-7{
+    background-image: url("Images/Rectangle\ 10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    width: 42.06rem;
+    height: 18.75rem; 
+    padding:8.25rem;  
+}
 
 
 
