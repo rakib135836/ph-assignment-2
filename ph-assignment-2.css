@@ -299,4 +299,96 @@ font-weight: 800;
     padding:0.875rem 2.19rem;
 }
 
+/* -------------------------------------------- */
 
+
+.newsletter-section{
+margin-top: 6.25rem;
+display: flex;
+justify-content: space-between;
+
+}
+.n-left{
+    padding:2.5rem;
+    border-radius: 8px;
+border:2px solid #FF5400;
+line-height: 4rem;
+
+}
+
+.name, .email{
+    padding:1rem;
+    width: 24.57rem;
+    border:none;
+    background:rgba(19, 19, 24, 0.05);
+    border-radius: 8px;
+
+
+
+
+}
+
+.subscribe{
+    padding:1rem;
+    width: 24.57rem;
+    border:none;  
+}
+
+.n-right{
+    background-image: url("Images/Rectangle\ 8\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 42rem;
+     height: 26.375;
+     border-radius: 1rem;
+     position: relative;
+    
+}
+
+
+.discount{
+    background-color: #FF5400;
+    color:white;
+    padding:0.5rem;
+    text-align: center;
+    width:20.25rem;
+height: 7.5rem;
+border-radius: 1rem;
+position:absolute; 
+top:17.81rem;
+bottom: 0;
+right:0;
+transform: rotate(-19.628deg);
+
+
+}
+/* --------------------------------- */
+
+footer{
+    padding:6.87rem;
+    background:  rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 6.25rem;
+
+}
+
+.rakib-travel{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.contact{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+
+}
+
+.contact-btn{
+    font-size: 2rem;
+    transition: 0.1s;
+}
+.contact-btn:hover{
+    transform: scale(1.2);
+}
