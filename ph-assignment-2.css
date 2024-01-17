@@ -337,6 +337,27 @@ padding:8.25rem;
 
     /* ------------------------------------------- */
 
+/* reviews */
+
+.countries{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.kaba{
+    width: 300px;
+    height: 400px;
+    border-radius: 1rem;
+}
+
+
+
+
+
+    /* ----------------------------------- */
 
     .deals-1, .deals-3{
         background-image: url("Images/Group\ 39.png");

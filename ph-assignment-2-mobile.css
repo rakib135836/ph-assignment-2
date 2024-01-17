@@ -284,7 +284,6 @@ color: white;
     padding:20px;
   }      
 
-  /* ---------------------------- */
 
   .deals-1, .deals-3{
     background-image: url("Images/Group\ 39.png");
@@ -295,6 +294,8 @@ color: white;
   border-radius: 16px;
   padding: 187px 16px 16px 16px;
   margin-top: 20px;
+
+  
 }
 
 .deals-content{
@@ -440,3 +441,23 @@ color: white;
     .contact-btn:hover{
         transform: scale(1.2);
     }
+/* -------------------------------------------- */
+    .countries{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .kaba{
+        width: 300px;
+        height: 400px;
+        border-radius: 1rem;
+    }
+    
+    
+    
+    
+    
+        /* ----------------------------------- */
